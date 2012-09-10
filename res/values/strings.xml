@@ -1,0 +1,11 @@
+<resources>
+
+    <string name="app_name">Bodylog</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_logging">Logging</string>
+    <string name="logging">Tap to stop logging.</string>
+    <string name="logging_off">Tap to start logging.</string>
+    <string name="logging_notification">Logging to BodyLog</string>
+
+</resources>
