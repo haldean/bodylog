@@ -7,5 +7,6 @@
     <string name="logging">Tap to stop logging.</string>
     <string name="logging_off">Tap to start logging.</string>
     <string name="logging_notification">Logging to BodyLog</string>
+    <string name="device_id">Body Identifier</string>
 
 </resources>
