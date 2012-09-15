@@ -24,9 +24,8 @@ others).  The server will ignore requests that do not have a whitelisted body
 identifier sent as a POST variable.
 
 You can configure where the server stores your data; by default, it stores it at
-bodylog-geo.csv in its working directory. Output is in the format
-
-    timestamp,latitude,longitude,altitude
+/tmp/bodylog.db. Output is a sqlite3 database with one table, `location`, with
+columns `time, device, latitude, longitude, altitude`.
 
 Note that altitude is going to be incredibly unreliable, because Bodylog uses
 network location to save on battery usage.
