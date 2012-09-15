@@ -130,6 +130,6 @@ func main() {
 	}
 	defer db.Close()
 
-	http.HandleFunc("/", httpHandler)
-	http.ListenAndServe(":8080", nil)
+	http.HandleFunc("/ping", httpHandler)
+	http.ListenAndServe(":8010", nil)
 }
